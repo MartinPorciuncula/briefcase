@@ -2,14 +2,14 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <section className="text-try font-semibold flex flex-col gap-4 p-4">
-      <span>
+    <section id="Projects" className="text-try font-semibold flex flex-col gap-4 p-4">
+      <span className="w-[50%] place-self-center min-[400px]:text-xl  min-[400px]:place-self-center">
         And we come to the most important part! My projects to which in each one
         I have dedicated hours and dedication, love and suffering, but we didn't
         talk about the last thing, did we? Without further ado, here are the
         links! Have fun!
       </span>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 min-[400px]:grid min-[400px]:grid-cols-3 min-[400px]:mt-20 min-[400px]:p-4">
       <a className="hover:scale-125 cursor-pointer hover:animate-bounce" href="https://e-commerce-martin-porciuncula.netlify.app" target="_blank">
   <img src="./images/Project1.PNG" alt="E-commerce"/>
 </a>
