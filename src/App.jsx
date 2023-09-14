@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
-  return <main className="min-h-screen bg-[url(/images/bg-briefcase.jpg)] font-Kanit bg-cover bg-center w-screen">
+  return <main className="min-h-screen bg-[url(/images/bg-briefcase.jpg)] font-Kanit bg-cover bg-center w-screen overflow-hidden">
   <Navbar />
   <Home />
   <AboutMe />
