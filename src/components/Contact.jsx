@@ -14,7 +14,7 @@ const Contact = () => {
       });
   };
   return (
-   <section className='flex justify-center items-center gap-4 flex-row'>
+   <section id="Contact"className='flex justify-center items-center gap-4 flex-row p-4'>
      <form  className='flex flex-col justify-center items-center gap-2 p-4 bg-bg-100/40  min-[400px]:h-96 w-96  min-[400px]:flex-col' onSubmit={sendEmail}>
       <label className='font-bold text-xl'>Name</label>
       <input placeholder='Type Here Your Name' type="text" name="user_name" />
@@ -26,7 +26,7 @@ const Contact = () => {
     </form>
     <article className='flex flex-col gap-6  min-[400px]:flex'>
     <a className='bg-primary2 px-6 rounded-lg  hover:scale-125  min-[400px]:w-20 hover:transition-all' href="https://w.app/c2JkuC" target='_blank'> <i className='bx bxl-whatsapp text-3xl'></i></a>  
-    <a className='bg-primary2 px-6 rounded-lg hover:scale-125 min-[400px]:w-20 hover:transition-all'  href="https://w.app/c2JkuC" target='_blank'> <i class='bx bxl-linkedin-square text-3xl'></i> </a>
+    <a className='bg-primary2 px-6 rounded-lg hover:scale-125 min-[400px]:w-20 hover:transition-all'  href="https://www.linkedin.com/in/martin-porciuncula-77269b283/" target='_blank'> <i class='bx bxl-linkedin-square text-3xl'></i> </a>
     </article>
   </section>
   )
