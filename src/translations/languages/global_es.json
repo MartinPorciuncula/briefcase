@@ -1,6 +1,33 @@
 {
+   
+    "navbar":{
+    "home":"Inicio",
+    "about":"Sobre mi",
+    "projects":"Proyectos",
+    "skills":"Ramas",
+    "contact":"Contacto"
+    },
     "home":{
         "welcome":"Bienvenido!",
-        "to-my":"a mi portafolio viajero!"
+        "to-my":"a mi portafolio viajero!",
+        "contact-me": "Contactame"
+    },
+    "about-me":{
+        "about":"Hola! Soy un Full Stack Web Developer. Mi nombre es Martin Porciuncula,vivo en uruguay y estudie desarrollo web en Academlo, tengo interes en el mundo de la programacion y estar en un equipo,abierto a aprender y trabajar en equipo!, si estas interesado en saber mas, contactame!"
+        },
+        "skills":{
+        "introduction":"Pero con todo lo visto sobre mi, quizas te preguntes, que tecnologias manejo de programacion? miremos!"
+        },
+    "projects": {
+        "description": "Y vinimos a la parte mas importante! Mis proyectos en los cuales a cada uno\nLe he dedicado horas y esmero, amor y sufrimiento, pero aun no\nhablamos de la ultima cosa, lo hicimos? Sin ir mas lejos, aqui estamos\nlinks! Diviertete!",
+        "not-frontend":"Tambien poseo proyectos sin frontEnd por el momento,pero eh creado sus base de datos,por ejemplo"
+    },
+    "contact":{
+     "name":"Nombre",
+     "email":"Email",
+     "message":"Mensaje",
+     "type-name":"Escribe aqui tu nombre",
+     "type-email":"Escribe aqui tu email",
+     "type-message":"Escribe aqui tu mensaje para contactarme via Email"
     }
 }

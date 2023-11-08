@@ -1,6 +1,33 @@
 {
-    "home":{
-        "welcome":"Welcome!",
-        "to-my":"to my briefcase traveler!"
-    }
+  
+    "navbar":{
+        "home":"Home",
+        "about":"About me",
+        "projects":"Projects",
+        "skills":"Skills",
+        "contact":"Contact"
+        },
+    "home": {
+    "welcome": "Welcome!",
+    "to-my": "to my briefcase traveler!",
+    "contact-me": "Contact me"
+  },
+  "about-me":{
+    "about":"Hello ! I am a Full Stack Web Developer. My name is Martin Porciuncula, I live in Uruguay and I studied web developer at Academlo, I am very interested in the world of programming and being part of a team, open to learning and improving with a team of work, if you are interested in more, contact me!"
+    },
+    "skills":{
+        "introduction":"But with everything seen about me, you may be wondering, what Skills do i have in programming? let's review!"
+        },
+  "projects": {
+    "description": "And we come to the most important part! My projects to which in each one\nI have dedicated hours and dedication, love and suffering, but we didn't\ntalk about the last thing, did we? Without further ado, here are the\nlinks! Have fun!",
+    "not-frontend":"I also got projects without FrontEnd at the moment,but i created the databases,for example"  
+},
+"contact":{
+    "name":"Name",
+    "email":"Email",
+    "message":"Message",
+    "type-name":"type here your name",
+    "type-email":"type here your email",
+    "type-message":"type here your message to contact me"
+   }
 }
